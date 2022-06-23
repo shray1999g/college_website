@@ -1,0 +1,36 @@
+  {
+    "KEC Director":[{
+        "name": "Dr. Shailesh Tiwari",
+        "mail": "director@krishnacollege.ac.in",
+        "phone": "+91-9266893293",
+        "designation": "Director"
+      }
+    ],
+
+    "Dean (A) & HOD (ME)": [
+      {
+        "name": "Dr. Sanjeev kumar",
+        "mail": " deana@krishnacollege.ac.in",
+        "phone": "+91-8010266661",
+        "designation": "Dean (A) & HOD (ME)"
+      }
+    ],
+
+    "HOD(IT)": [
+      {
+        "name": "Dr. Deepak Kumar Singh",
+        "mail": " hodit@krishnacollege.ac.in",
+        "phone": "+91-9453460363",
+        "designation": "HOD(IT)"
+      }
+    ],
+      
+    "Dean(Research) & HOD(CSE)": [
+      {
+        "name": "Dr. Pramod Kumar",
+        "mail": " hodcse@krishnacollege.ac.in",
+        "phone": "+91-9410728057",
+        "designation": "Dean(Research) & HOD(CSE)"
+      }
+    ]
+  }

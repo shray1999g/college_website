@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+.Home{
+    height: 100%;
+    width: 100%; 
+}
+
+.FirstSection {
+    position: relative !important;
+  }
+
+  .HomeSection {
+    width: 100%;
+    height: calc(100vh - 40px);
+  }
+
+  .SlideHolder {
+    width: 99.61vw !important;
+    height: 95vh !important;
+    z-index: 0;
+  }
+  
+  
+  .Slide {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white
+    
+  }
+  
+  .SlideImage {
+    object-fit: cover;
+    width: 102%;
+    height: 100%;
+    filter: brightness(30%);
+  }
+
+  @keyframes animateLogo {
+    0%  {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.1);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+
+  .WelcomeContainer {
+    position: absolute;
+    animation: animateLogo 1s forwards ease-out;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+  }
+
+  .KecLogo {
+    height: 250px;
+    background-image: url('../Images/Core/kecLogoTransparent.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .WelcomeContainer h1 {
+    font-size: 2em;
+    font-weight: 800;
+  }
+  
+  .WelcomeContainer h2 {
+    font-size: 1.4em;
+    font-weight: 1000;
+  }
+
+  .SecondSection {
+    display: flex;
+    background-color: rgb(7, 65, 83);
+    color: rgb(255, 255, 255);
+  }
+  
+  .SecondSectionContainer {
+    position: relative;
+    min-width: 50%;
+    max-width: 50%;
+    height: 100%;
+  }
+  
+  .SubContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    transform: translateY(-50%) !important;
+  }
+  
+  .AchievementBG {
+    position: relative;
+    height: 7vw;
+    min-width: 12vw;
+    max-width: 15vw;
+    margin: 20px 10px;
+    background-image: url('../Images/HomeImg/achievementsBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #e1a40f;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .AchievementBG:hover {
+    transform: scale(1.1);
+  }
+  
+  .AchievementContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+    text-align: center;
+  }
+  
+  .AchievementHead {
+    font-size: 1vw;
+  }
+  
+  .AchievementContent {
+    margin-top: 5px;
+    font-size: 0.6vw;
+  }
+  
+  .AboutTextHead {
+    font-size: 2.0em;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .AboutTextContent {
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .ThirdSection {
+    height: calc(20vh - 40px) !important;
+    width: calc(100% - 40px) !important;
+    background-color: rgb(43, 139, 248);
+    padding: 20px;
+    color: white;
+    display: flex;
+  }
+
+  .ThirdSectionMotion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ThirdSectionContainer {
+    text-align: center;
+    width: 15vw;
+  }
+  
+  .CountValue {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .CountName {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+  .CountBorder {
+    height: 60%;
+    border-right: 1px solid white;
+  }
+
+  .FourthSection {
+    height: max-content !important;
+    text-align: center;
+  }
+
+  /* .DashboardHead {
+    font-size: 1.8em;
+    font-weight: 800;
+    padding: 10px; 
+  } */
+  
+  .DashboardBody {
+    padding: 50px 10%;
+  }
+  
+  .DashboardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  @keyframes animateDshItem {
+    from { box-shadow: 0px 0px 0px rgb(150, 150, 150); transform: scale(1);}
+    to {box-shadow: 15px 15px 10px rgb(150, 150, 150); transform: scale(1.05);}
+  }
+
+  .DashboardItem {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    text-decoration: none;
+    background-color: rgb(7, 65, 83);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+  }
+  
+  .DashboardItem:hover {
+    animation: animateDshItem 0.3s forwards;
+  }
+  
+  .DashboardItem img {
+    margin: 20px auto;
+    height: 80px;
+  }
+  
+  .DashboardItem h1 {
+    padding: 0px 10px;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  
+  .DashboardItem h2 {
+    padding: 0px 10px;
+    font-size: 1.2em;
+    font-weight: 400;
+  }

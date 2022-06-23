@@ -1,0 +1,58 @@
+.Footer {
+    display: table-row;
+    background-color: rgb(9, 82, 111);
+    color: white;
+    height: 400px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .FooterBody {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-top: 10px solid rgb(86, 145, 169);
+  }
+  
+  .FooterCol {
+      margin: 20px;
+  }
+  
+  .ColHead {
+      font-size: 1.3em;
+      font-weight: 1000;
+      margin: 10px 0px;
+  }
+  
+  .FooterLogo {
+      height: 150px;
+      margin-bottom: 10px;
+  }
+  
+  .RowHead {
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 5px 0px;
+  }
+  
+  .RowIcon {
+      height: 20px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    
+    .ContactLink {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 4px 0px;
+        font-size: 1em;;
+    }
+    
+    .animateHover:hover {
+      transform: translateX(20px) scale(1.1);
+    }
+    
+    .RowContent {
+        font-size: 0.9em;
+    }
+    

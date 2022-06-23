@@ -1,0 +1,166 @@
+{
+    "Bechelors of Technology": [
+        {
+            "id": 1,
+            "name": "Shray Gupta",
+            "email": "shray1999g@gmail.com",
+            "image": "std18.jpg",
+            "highQual": "B.Tech CSE - 2017 - 21",
+            "skills": "C/C++, SQL, Python, HTML, CSS, Javascript",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 2,
+            "name": "Shreya Shrivastav",
+            "email": "abcd@gmail.com",
+            "image": "std17.jpg",
+            "highQual": "B.Tech CSE - 2018 - 22",
+            "skills": "C/C++, SQL, Python, HTML, CSS, Java",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 3,
+            "name": "Navneet Arora",
+            "email": "abcd@gmail.com",
+            "image": "std1.jpg",
+            "highQual": "B.Tech IT - 2015-19",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 4,
+            "name": "Prashant Yadav",
+            "email": "abcd@gmail.com",
+            "image": "std2.jpg",
+            "highQual": "B.Tech CSE - 2008-12",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 5,
+            "name": "Aakash",
+            "email": "abcd@gmail.com",
+            "image": "std3.jpg",
+            "highQual": "B.Tech CSE - 2016-20",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 6,
+            "name": "Gaurav Sharma",
+            "email": "abcd@gmail.com",
+            "image": "std4.jpg",
+            "highQual": "B.Tech CSE - 2015-19",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 7,
+            "name": "Vandnesh Shekhawat",
+            "email": "abcd@gmail.com",
+            "image": "std5.jpg",
+            "highQual": "B.Tech CE - 2013-17",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 8,
+            "name": "Rajni Kant Verma",
+            "email": "abcd@gmail.com",
+            "image": "std6.jpg",
+            "highQual": "B.Tech CSE - 2014-18",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 9,
+            "name": "Shubhm Jain",
+            "email": "abcd@gmail.com",
+            "image": "std7.jpg",
+            "highQual": "B.Tech CSE – 2012 - 16",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 10,
+            "name": "Neha Sharma",
+            "email": "abcd@gmail.com",
+            "image": "std8.jpg",
+            "highQual": "B.Tech IT – 2014-18",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 11,
+            "name": "Piyush Sharma",
+            "email": "abcd@gmail.com",
+            "image": "std9.jpg",
+            "highQual": "B.Tech ME – 2013-17",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 12,
+            "name": "Keshav Arora",
+            "email": "abcd@gmail.com",
+            "image": "std11.jpg",
+            "highQual": "B.Tech ME – 2013-17",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 13,
+            "name": "Saloni Verma",
+            "email": "abcd@gmail.com",
+            "image": "std11.jpg",
+            "highQual": "B.Tech ECE – 2013-17",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 14,
+            "name": "Kushagra Mehtani",
+            "email": "abcd@gmail.com",
+            "image": "std12.jpg",
+            "highQual": "B.Tech CSE – 2013-17",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 15,
+            "name": "Akansha Tyagi",
+            "email": "abcd@gmail.com",
+            "image": "std13.jpg",
+            "highQual": "B.Tech CSE - 2012 - 16",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 16,
+            "name": "Sarthak Khare",
+            "email": "abcd@gmail.com",
+            "image": "std14.jpg",
+            "highQual": "B.Tech CSE - 2012 - 16",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 17,
+            "name": "Himanshu Kaushik",
+            "email": "abcd@gmail.com",
+            "image": "std15.jpg",
+            "highQual": "UPSC IAS",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        },
+        {
+            "id": 18,
+            "name": "Himanshi Chauhan",
+            "email": "abcd@gmail.com",
+            "image": "std16.jpg",
+            "highQual": "Indian Army",
+            "skills": "C/C++, SQL, Python,",
+            "linkedin": "https://www.linkedin.com/in/abcd-33aa14226"
+        }
+    ]
+}

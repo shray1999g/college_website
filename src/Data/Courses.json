@@ -1,0 +1,525 @@
+{
+    "B.Tech(CSE)": {
+        "FullName": "Computer Science And Engineering",
+        "Image": "mca.jpg",
+        "Summary": "Since the advent of computers, they have become synonymous with the rise in, and use of technology, which has become integrated into the everyday life of humans. The millennials have been born in an age where life without computers is an unimaginable concept and towards this end the Computer Science & Engineering Course contributes to the development of a society which can use computers & technology efficiently for the benefit of mankind by using current trends in learning Artificial Intelligence, Machine Learning, Big Data, etc.",
+        "Duration": "4 Years",
+        "Type": "Full Time",
+        "Specialization": "CSE",
+        "Syllabus": [
+            {
+                "Name": "SEMESTER I",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Digital Logic and Computer Architecture", "Discrete Mathematics", "Algorithmics and Program Design", "Database Management Systems"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Statistical Computing", "e-Business Systems", "Human Computer Interaction"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Algorithmics and Program Design", "DBMS"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER II",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Software Engineering", "Object Oriented Programming", "Advanced Data Structures", "Operating Systems and Shell Programming"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Data Mining and Warehousing", "Software Project Management", "Theory of Computation", "Modelling and Simulation", "Programming with Python"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["OOP", "ADS and Shell Programming"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER III",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Data Communication and Networks", "Artificial Intelligence", "Information Security", "Analysis and Design of Algorithms"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Cryptography", "Cloud Computing", "Machine Learning", "Numerical Optimization", "Web Based Programming"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["A.I.", "Analysis and Design of Algorithms"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER IV",
+                "Structure": [
+                    {
+                        "Category": "PROJECT",
+                        "Courses": ["Major Project"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER V",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER VI",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                        },
+                        {
+                            "Category": "ELECTIVE",
+                            "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER IIIX",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                        },
+                        {
+                            "Category": "ELECTIVE",
+                            "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["Drug Design + NGS"]
+                        },
+                        {
+                            "Category": "PROJECT",
+                            "Courses": ["Minor Project"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER IIX",
+                    "Structure": [
+                        {
+                            "Category": "Project",
+                            "Courses": ["Major Project and Thesis Writing"]
+                        }
+                    ]
+                }
+        ]
+    },
+    
+    "B.Tech(CSE-AI)": {
+        "FullName": "Computer Science & Engineering (Artificial Intelligence)",
+        "Image": "msc.jpg",
+        "Summary": "This programme is designed to provide a student with core concepts of computer science as well as data analytics. It also provides engineering and problem-solving skills using computational methods. The students will have an opportunity to learn principles, tools and techniques to model various real world problems, analyze them, and discover useful information. Further, they are encouraged to suggest solutions that support decision-making using suitable data visualization techniques. The prime focus of this program is to equip students with statistical skills, mathematical reasoning, machine learning, knowledge discovery and visualization skills. The focus is on holistic learning and on empowering students to make significant contributions at all levels.",
+        "Duration": "4 Years",
+        "Type": "Full Time",
+        "Specialization": "CSE-AI",
+        "Syllabus": [
+            {
+                "Name": "SEMESTER I",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER II",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER III",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Drug Design + NGS"]
+                    },
+                    {
+                        "Category": "PROJECT",
+                        "Courses": ["Minor Project"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER IV",
+                "Structure": [
+                    {
+                        "Category": "Project",
+                        "Courses": ["Major Project and Thesis Writing"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER V",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER VI",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                        },
+                        {
+                            "Category": "ELECTIVE",
+                            "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER IIIX",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                        },
+                        {
+                            "Category": "ELECTIVE",
+                            "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["Drug Design + NGS"]
+                        },
+                        {
+                            "Category": "PROJECT",
+                            "Courses": ["Minor Project"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER IIX",
+                    "Structure": [
+                        {
+                            "Category": "Project",
+                            "Courses": ["Major Project and Thesis Writing"]
+                        }
+                    ]
+                }
+        ]
+    },
+
+    "B.Tech(CSE-AI&ML)": {
+        "FullName": "Computer Science And Engineering (Artificial Intelligence & Machine Learning)",
+        "Image": "cseKec.jpg",
+        "Summary": "Artificial Intelligence & Machine Learning is a field that has a long history but is still constantly and actively growing and changing. In this course, you’ll learn the basics of modern Artificial Intelligence & Machine Learning as well as some of the representative applications of it. Along the way, we also hope to excite you about the numerous applications and huge possibilities in the field of Artificial Intelligence & Machine Learning, which continues to expand human capability beyond our imagination.",
+        "Duration": "4 Years",
+        "Type": "Full Time",
+        "Specialization": "CSE-AI & ML",
+        "Syllabus": [
+            {
+                "Name": "SEMESTER I",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER II",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER III",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Drug Design + NGS"]
+                    },
+                    {
+                        "Category": "PROJECT",
+                        "Courses": ["Minor Project"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER IV",
+                "Structure": [
+                    {
+                        "Category": "Project",
+                        "Courses": ["Major Project and Thesis Writing"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER V",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER VI",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                        },
+                        {
+                            "Category": "ELECTIVE",
+                            "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER IIIX",
+                    "Structure": [
+                        {
+                            "Category": "CORE",
+                            "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                        },
+                        {
+                            "Category": "ELECTIVE",
+                            "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                        },
+                        {
+                            "Category": "LAB",
+                            "Courses": ["Drug Design + NGS"]
+                        },
+                        {
+                            "Category": "PROJECT",
+                            "Courses": ["Minor Project"]
+                        }
+                    ]
+                },
+                {
+                    "Name": "SEMESTER IIX",
+                    "Structure": [
+                        {
+                            "Category": "Project",
+                            "Courses": ["Major Project and Thesis Writing"]
+                        }
+                    ]
+                }
+        ]
+    },
+
+    "IT": {
+        "FullName": "Information Technology",
+        "Image": "itKec.jpg",
+        "Summary": "In this knowledge era, information is the key to the success of any nation or corporate house. But management of this information is very crucial to the survival of the fittest in this competitively evolving world of today. Our course in information technology equips our pupils to learn and apply the tools & technology so that they leave an indelible mark on societal development as a whole by integrating into the curriculum topics like Internet of Things, Cloud Computing etc.",
+        "Duration": "4 Years",
+        "Type": "Full Time",
+        "Specialization": "IT",
+        "Syllabus": [
+            {
+                "Name": "SEMESTER I",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER II",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER III",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Drug Design + NGS"]
+                    },
+                    {
+                        "Category": "PROJECT",
+                        "Courses": ["Minor Project"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER IV",
+                "Structure": [
+                    {
+                        "Category": "Project",
+                        "Courses": ["Major Project and Thesis Writing"]
+                    }
+                ]
+            },
+            {
+            "Name": "SEMESTER V",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Introduction to Bioinformatics", "Computing Fundamentals", "Programming in C++", "Comparative and Functional Genomics", "Chemoinformatics and Chemogenomics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Bioinformatics Tools", "C++& Linux"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER VI",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["Systems Biology", "Biochemistry", "Essential Mathematics & Biostatistics", "Database Management System"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Programming in Python &Biopython", "Programming in Perl and Bioperl", "Object-Oriented Programming in Java"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["MySql/Oracle", "Systems Biology and Advance Bioinformatics Tools"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER IIIX",
+                "Structure": [
+                    {
+                        "Category": "CORE",
+                        "Courses": ["NGS Data Analysis", "Structural Bioinformatics and Drug Design", "Programming in R", "Web-based Programming"]
+                    },
+                    {
+                        "Category": "ELECTIVE",
+                        "Courses": ["Artificial Intelligence in Bioinformatics", "Machine Learning Techniques in Bioinformatics", "Soft Computing Techniques in Bioinformatics", "Health Informatics"]
+                    },
+                    {
+                        "Category": "LAB",
+                        "Courses": ["Drug Design + NGS"]
+                    },
+                    {
+                        "Category": "PROJECT",
+                        "Courses": ["Minor Project"]
+                    }
+                ]
+            },
+            {
+                "Name": "SEMESTER IIX",
+                "Structure": [
+                    {
+                        "Category": "Project",
+                        "Courses": ["Major Project and Thesis Writing"]
+                    }
+                ]
+            }
+        ]
+    }
+}

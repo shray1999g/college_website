@@ -1,0 +1,136 @@
+.Header {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(3, 119, 165);
+    border-bottom: 10px solid rgb(9, 82, 111);
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes pullDown {
+    from { top:0%; }
+    to {top: 40%;}
+}
+
+@keyframes pushUp {
+    from { top:40%;}
+    to {top: 0%;}
+}
+
+.HeaderBody {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    border-radius: 20px;
+    animation: pullDown 0.5s ease-out forwards;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* hard coded header height */
+    width: 90%;
+    background-color: rgb(9, 82, 111);
+    color: white;
+    z-index: 100;
+}
+
+.CollapseHeader {
+    animation: pushUp 0.2s ease-out forwards !important;
+}
+
+.HeaderChild {
+    margin: 10px 20px 10px 20px;
+}
+
+.HeaderLogo {
+    display: inline-block;
+    background-image: url('../Images/Core/kecLogoTransparent.png');
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+.HeaderText {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: 'sans serif';
+}
+
+.NavBar {
+    position: relative;
+    z-index: 1;
+}
+
+.NavLink {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 200;
+    width: 107px;
+    color: white;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+
+.Pill {
+    position: absolute;
+    left: 0px; 
+    top: 0;
+    width: 110px; 
+    height: 40px;
+    background: rgb(3, 119, 165);
+    border-radius: 8px;
+    z-index: -1;
+    transition: 9999s transform .2s ease-out;
+}
+
+.NavLink:nth-child(1)[aria-selected="true"] ~ .Pill{
+    transform: translate(0px, 0px);
+    transition: transform .3s ease-out;
+}
+
+.NavLink:nth-child(2)[aria-selected="true"] ~ .Pill{
+  transform: translate(107px, 0px);
+  transition: transform .3s ease-out;
+}
+
+.NavLink:nth-child(3)[aria-selected="true"] ~ .Pill{
+    transform: translate(214px, 0px);
+    transition: transform .3s ease-out;
+}
+
+.NavLink:nth-child(4)[aria-selected="true"] ~ .Pill{
+    transform: translate(321px, 0px);
+    transition: transform .3s ease-out;
+}
+
+.NavLink:nth-child(5)[aria-selected="true"] ~ .Pill{
+    transform: translate(428px, 0px);
+    transition: transform .3s ease-out;
+}
+
+.NavLink:nth-child(6)[aria-selected="true"] ~ .Pill{
+    transform: translate(535px, 0px);
+    transition: transform .3s ease-out;
+}
+
+/* .NavLink:nth-child(7)[aria-selected="true"] ~ .Pill{
+    transform: translate(630px, 0px);
+    transition: transform .3s ease-out;
+} */
+
+.DepartmentMargin{
+    margin-left:0px;
+}
+

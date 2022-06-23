@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.overview, .infra{
+    display: flex;
+}
+.image-box{
+    width: 50%;
+}
+
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-box img{
+    width: 100%;
+    display: block;
+}
+.content{
+    width: 50%;
+    padding-top: 1rem;
+    background-color: rgb(7, 65, 83);
+    color: #fff;
+    text-align: center;
+}
+.content > p{
+    width: 90%;
+    margin:1rem auto;
+    word-break: normal;
+    text-align: justify;
+}

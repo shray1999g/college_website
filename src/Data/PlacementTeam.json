@@ -1,0 +1,53 @@
+{
+    "Coordinator": {
+        "TPC": [
+            {
+                "Name": "Dr. Sachin Malhotra",
+                "Designation": "Dean - Training and Placement",
+                "Image": "Sachin.jpg",
+                "Phone": "0123456789",
+                "Email": "abcd@gmail.com",
+                "Linkedin": "https://www.linkedin.com/in/abcd/"
+            },
+            
+            {
+                "Name": "Ms. Aarti Jaiswal",
+                "Designation": "Soft Skils Trainer",
+                "Image": "Aarti.jpg",
+                "Phone": "0123456789",
+                "Email": "abcd@gmail.com",
+                "Linkedin": "https://www.linkedin.com/in/abcd/"
+            },
+
+            {
+                "Name": "Ms. Shweta Sharma",
+                "Designation": "Head Training And Placement",
+                "Image": "Shweta.jpg",
+                "Phone": "0123456789",
+                "Email": "abcd@gmail.com",
+                "Linkedin": "https://www.linkedin.com/in/abcd/"
+            },
+
+            {
+                "Name": "Mr. Prashant Malik",
+                "Designation": "Aptitude Trainer",
+                "Image": "Prashant.jpg",
+                "Phone": "0123456789",
+                "Email": "abcd@gmail.com",
+                "Linkedin": "https://www.linkedin.com/in/abcd/"
+            }
+        ]
+    },
+    "B.Tech": {
+        "Main Team": [
+            {
+                "Name": "Shray Gupta",
+                "Designation": "Web Developer, Web Team ",
+                "Image": "Shray.jpg",
+                "Phone": "+91 7838862829",
+                "Email": "shray1999.sg@gmail.com",
+                "Linkedin": "https://www.linkedin.com/in/abcd/"
+            }
+        ]
+    }
+}
