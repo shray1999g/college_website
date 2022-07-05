@@ -122,3 +122,28 @@
 .StudentContactIcon:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 1080px){
+    .StudentProfilesBody {
+        padding: 10px;
+    }
+    
+    .StudentCard {
+        border-radius: 10px;
+        width: 350px;
+        margin: 20px 0px;
+    }
+    
+    .StudentImageContainer { 
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .ImageCurve {
+        border-radius: 7px 7px 0px 0px;
+        width: 100%;
+    }
+
+    #StudentProfiles{
+        text-align: center;
+    }
+}

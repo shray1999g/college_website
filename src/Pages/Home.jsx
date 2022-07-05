@@ -38,6 +38,8 @@ const motionStyle = {
 
 
 var key = 0
+var key2 = 0;
+
 export default function Home(props) {
   
   const Images = importAll(require.context('../Images/HomeImg', false, /\.(png|jpe?g|svg)$/));
@@ -144,6 +146,14 @@ export default function Home(props) {
   }
   //end of dashboard 
 
+  //mobile view code starts
+  const FallbackViewportEnter = (oldState, stateFunction) => {
+    if (!oldState) {
+        stateFunction(true)
+    }
+}
+  //mobile view code ends
+
 
   return (
     <div className='Home' id='Home'>
@@ -176,6 +186,8 @@ export default function Home(props) {
             animate={isPage2InView ? 'visible' : 'hidden'}
             onViewportEnter={(enter) => { setWasPage2InView(isPage2InView); setIsPage2InView(true) }}
             onViewportLeave={(enter) => { setWasPage2InView(isPage2InView); setIsPage2InView(false) }}
+            whileInView={FallbackViewportEnter(isPage2InView, setIsPage2InView)}
+
           >
             {awardElement}
           </motion.div>
@@ -213,6 +225,8 @@ export default function Home(props) {
             animate={isPage4InView ? 'visible' : 'hidden'}
             onViewportEnter={(entry) => { setWasPage4InView(isPage4InView); setIsPage4InView(true) }}
             onViewportLeave={(entry) => { setWasPage4InView(isPage4InView); setIsPage4InView(false) }}
+            whileInView={FallbackViewportEnter(isPage4InView, setIsPage4InView)}
+
           >
             {dashboardElements}
           </motion.div>

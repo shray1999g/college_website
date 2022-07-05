@@ -30,6 +30,8 @@
     padding: 10px;
 }
 
+
+
 .CourseDetails {
     padding: 20px;
     text-align: justify;
@@ -88,7 +90,7 @@
     position: relative;
     top: -25px;
     left: 3px;
-    background: #074153;
+    background: #5c5cff;
     border-radius: 20px;
     font-size: 1.5em;
     color: white;
@@ -114,4 +116,96 @@
     font-size: 1.0em;
     font-weight: 400;
     margin: 0;   
+}
+
+@media only screen and (max-width: 1080px) {  
+    .CoursesList {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .CourseContainer {
+        max-width: 90vw;
+        margin: 20px 0px;
+    }
+    
+    .CourseImage {
+        width: 90vw;
+    }
+    
+    .CourseHead {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+ 
+    .CourseDetails {
+        font-size: 0.9em;
+        padding: 10px 15px;
+    }
+    
+    .CourseCaption {
+        height: 40px;
+    }
+    
+    .CaptionItemIcon {
+        height: 20px;
+    }
+    
+    .CurriculumContainer {
+        padding: 10px 0px;
+    }
+    
+    .CurriculumBody {
+        padding: 10px 10px;
+        background-image: url("../Images/CoursesImg/card_1_mobile.jpg");
+    }
+    
+    .CourseSlideHolder {
+        height: 530px !important;
+        width: calc(100vw - 20px) !important;
+    }
+    
+    .CourseSlideContainer {
+        margin: 40px 10px;
+        border-radius: 8%;
+        min-width: 350px;
+        min-height: 450px;
+        max-width: 350px;
+        max-height: 450px;
+    }
+    
+    .SemesterHead {
+        font-size: 1.3em;
+        width: 60%;
+    }
+    
+    .SemesterContent {
+        border-radius: 10px;
+        padding: 0px 10px;
+    }
+    
+    .SemesterContent h2{
+        font-size: 1.1em; 
+    }
+    
+    .SemesterContent h3{
+        font-size: 0.9em;
+    }  
+    
+    .subheading-container{
+        width: 90%;
+        text-align: left;
+      }
+
+      .subheading-border{
+        width:90%;
+        background-color: rgb(7, 65, 83);
+        height: 5px;
+        border-radius: 5px;
+      }
+
+      .CoursePageSection h1{
+        text-align: center;
+      }
 }

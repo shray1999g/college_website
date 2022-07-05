@@ -32,7 +32,7 @@ export default function PageContainer() {
 
   return (
     <div>
-      <div className='pageContainer'>
+      <div className='PageContainer'>
             <Routes>
                 {/* set up routes to all pages */}
                 <Route path="/home" element={<Home />}></Route>

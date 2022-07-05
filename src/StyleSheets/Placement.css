@@ -1,8 +1,6 @@
 .PlacementPage {
     height: max-content;
     padding: 20px 15%;
-    /* width: 136%;
-    height: 100%; */
 }
 
 .PlacementSectionBody {
@@ -76,7 +74,6 @@
     display: inline-block;
     width: 60vw;
     height: 68vh;
-
 }
 
 .RecordsCharts {
@@ -286,4 +283,134 @@
 
 .ContributorContactIcon:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1080px) {
+    .PlacementPage {
+        padding: 10px;
+    }
+    
+    .PlacementRecordsContainer {
+        margin: 10px 0px;
+        border-radius: 5px;
+    }
+    
+    .RecordsYear {
+        padding: 0px;
+        border-radius: 5px 0px 20px 0px;
+        font-size: 1.2em;
+        font-weight: 700;
+        height: 63px;
+        width: 70px;
+    }
+    
+    .RecordsSummary {
+        font-size: 1.0em;
+        font-weight: 400;
+        width: 120px;
+        text-align: center;
+    }
+    
+    .ExpandChartsButton {
+        margin: 0px 10px;
+        text-align: right;
+        width: 30px;
+    }
+    
+    .ExpandChartsButton img {
+        padding: 5px;
+        width: 15px;
+    }
+
+    .SummaryChart {
+        display: inline-block;
+        width: 90vw;
+        height: 25vh;
+    }
+    
+    .latestYear {
+        padding: 10px;
+    }
+    
+    .expand {
+        padding: 10px;
+    }  
+    
+    .PieChartContainer {
+        display: inline-block;
+        width: 70vw;
+    }
+    
+    .recruiters img {
+        max-width: 70px;
+    }
+    
+    .OnlyOneCard {
+        padding-left: 10px;
+    }
+    
+    .contributorProfileContainer {
+        height: 120px;
+        min-width: 300px;
+        width: max-content;
+        padding: 0px 5px 0px 0px;
+        border-radius: 10px;
+        margin: 15px 5px 15px 0px;
+    }
+    
+    .ContributorCardImage {
+        width: 100px;
+        height: 120px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .ContributorCardContent {
+        margin: 5px;
+    }
+    
+    .ContributorAboutSection h1 {
+        padding-top: 5px;
+        padding-bottom: 2px;
+        font-size: 1.1em;
+    }
+    
+    .ContributorAboutSection h2 {
+        font-size: 0.7em;
+    }
+    
+    .ContributorAboutSection h3 {
+        font-size: 0.8em;
+        margin: 0px 0px 8px 0px;
+    }
+    
+    .ContributorSectionBorder {
+        border-top: 2px solid #2b92b1;
+    }
+    
+    .ContributorContactIcon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .subheading-border{
+        width:90%;
+        background-color: rgb(7, 65, 83);
+        height: 5px;
+        border-radius: 5px;
+      }
+
+      .subheading-container{
+        width: 90%;
+        text-align: left;
+      }
+
+      .heading-container{
+        width: 90%;
+        text-align: left;
+      }
+
+      .heading-container h1{
+        text-align: center;
+      }
+
 }

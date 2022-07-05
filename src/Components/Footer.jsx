@@ -32,9 +32,9 @@ export default function Footer() {
     <div className='Footer'>
       <div className="FooterBody">
         <div className="FooterCol">
-          <div className="AlignCenter MarginPaddingNone"><img className='FooterLogo' src={kecLogo} alt="KEC Logo" /></div>
-          <div className="ColHead AlignCenter MarginPaddingNone">Krishna Engineering College</div>
-          <div className="RowHead AlignCenter MarginPaddingNone">Affiliated Through AKTU</div>
+          <div className="AlignCenter marginPaddingNone"><img className='FooterLogo' src={kecLogo} alt="KEC Logo" /></div>
+          <div className="ColHead AlignCenter marginPaddingNone">Krishna Engineering College</div>
+          <div className="RowHead AlignCenter marginPaddingNone">Affiliated Through AKTU</div>
           <a className='ContactLink AlignCenter' href="https://www.krishnacollege.ac.in/" target='_blank' rel='noreferrer' >www.krishnacollege.ac.in</a>
         </div>
         <div className="FooterCol">

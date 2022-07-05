@@ -15,8 +15,8 @@
   }
 
   .SlideHolder {
-    width: 99.61vw !important;
-    height: 95vh !important;
+    width: 100% !important;
+    height: 100% !important;
     z-index: 0;
   }
   
@@ -72,12 +72,12 @@
   }
   
   .WelcomeContainer h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 800;
   }
   
   .WelcomeContainer h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 1000;
   }
 
@@ -197,11 +197,11 @@
     text-align: center;
   }
 
-  /* .DashboardHead {
-    font-size: 1.8em;
+  .DashboardHead {
+    font-size: 2em;
     font-weight: 800;
-    padding: 10px; 
-  } */
+    padding: 20px; 
+  }
   
   .DashboardBody {
     padding: 50px 10%;
@@ -251,4 +251,171 @@
     padding: 0px 10px;
     font-size: 1.2em;
     font-weight: 400;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .HomeSection {
+      width: 100%;
+      height: calc(100vh - 60px);
+    }
+  
+    .FirstSection {
+      position: relative !important;
+    }
+    
+    .WelcomeContainer h1 {
+      font-size: 1.3em;
+      font-weight: 1000;
+    }
+  
+    .WelcomeContainer h2 {
+      font-size: 1.0em;
+      font-weight: 700;
+    }
+  
+    .SecondSection {
+      height: max-content !important;
+      display: block;
+      background-color: rgb(7, 65, 83);
+      color: rgb(255, 255, 255);
+    }
+    
+    .SecondSectionContainer {
+      position: static;
+      min-width: calc(100% - 40px);
+      max-width: calc(100% - 40px);
+      height: max-content;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .SubContainer {
+      position: static;
+      display: flex;
+      width: 100%;
+      transform: unset !important;
+    }
+    
+    .AchievementBG {
+      position: relative;
+      display: inline-block;
+      height: 100px;
+      min-width: 35vw;
+      max-width: 35vw;
+      margin: 10px;
+    }
+    
+    .AchievementHead {
+      font-size: 0.8em;
+    }
+    
+    .AchievementContent {
+      margin-top: 5px;
+      font-size: 0.5em;
+    }
+    
+    .AboutTextHead {
+      text-align: left;
+      font-size: 1.3em;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .AboutTextContent {
+      font-size: 1.0em;
+      font-weight: 400;
+      text-align: justify;
+    }
+  
+    .ThirdSection {
+      width: 100% !important;
+      height: max-content !important;
+      padding: 20px 0px;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  
+    .ThirdSectionMotion {
+      display: flex;
+      flex-direction: column;
+    
+    }
+    
+    .ThirdSectionContainer {
+      padding: 10px 0px;
+      text-align: center;
+      width: 100%;
+      height: max-content;
+    }
+    
+    .CountValue {
+      font-size: 1.3em;
+    }
+    
+    .CountBorder {
+      width: 80%;
+      height: 0%;
+      border-right: none;
+      border-bottom: 1px solid white;
+    }
+    
+    .CountName {
+      font-size: 0.9em;
+    }
+  
+    .DashboardHead {
+      font-size: 1.8em;
+      font-weight: 800;
+      padding: 10px; 
+    }
+    
+    .DashboardBody {
+      padding: 20px 10px;
+    }
+    
+    .DashboardRow {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    
+    .DashboardItem {
+      width: 160px;
+      height: 160px;
+      margin: 10px 5px;
+      box-shadow: 3px 3px 5px grey;
+    }
+    
+    .DashboardItem:hover {
+      animation: unset;
+    }
+    
+    .DashboardItem img {
+      margin: 0px auto;
+      height: 30px;
+    }
+    
+    .DashboardItem h1 {
+      padding: 0px 5px;
+      font-size: 1.1em;
+      font-weight: 700;
+    }
+    
+    .DashboardItem h2 {
+      padding: 0px 5px;
+      font-size: 0.8em;
+      font-weight: 400;
+    }
+
+    .SlideImage {
+      object-fit: cover;
+      width: 112%;
+      height: 100%;
+      filter: brightness(30%);
+    }
+
+    .FourthSection h1{
+      text-align: center;
+    }
   }

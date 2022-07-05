@@ -56,3 +56,56 @@
         font-size: 0.9em;
     }
     
+    @media only screen and (max-width: 1080px) {
+        .Footer {
+            width: 100%;
+            height: 850px;
+        }
+  
+        .FooterBody {
+            display: block;
+            border-top: 5px solid rgb(86, 145, 169);
+        }
+        
+        .FooterCol {
+            margin: 10px;
+        }
+        
+        .ColHead {
+            font-size: 1.1em;
+            font-weight: bolder;
+            margin: 5px 0px;
+        }
+        
+        .FooterLogo {
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        
+        .RowHead {
+            font-weight: bold;
+            font-size: 0.9em;
+            padding: 5px 0px;
+        }
+        
+        .RowContent {
+            font-size: 0.7em;
+        }
+        
+        .RowIcon {
+            height: 15px;
+            margin-right: 5px;
+        }
+        
+        .ContactLink {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 4px 0px;
+            font-size: 0.8em;;
+        }
+  
+        .animateHover:hover {
+          transform: translateX(60px) scale(1.1);
+      }
+  }
