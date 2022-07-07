@@ -233,7 +233,7 @@
         padding: 10px 0px;
     }
 
-    .pill {
+    .Pill {
         position: absolute;
         left: 0px; 
         top: 20px;
@@ -242,31 +242,31 @@
         background: rgb(3, 119, 165);
     }
 
-    .NavLink:nth-child(1)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(1)[aria-selected="true"] ~ .Pill{
         transform: translate(0px, 0px);
     }
 
-    .NavLink:nth-child(2)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(2)[aria-selected="true"] ~ .Pill{
       transform: translate(0px, 60px);
     }
 
-    .NavLink:nth-child(3)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(3)[aria-selected="true"] ~ .Pill{
         transform: translate(0px, 120px);
     }
 
-    .NavLink:nth-child(4)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(4)[aria-selected="true"] ~ .Pill{
         transform: translate(0px, 180px);
     }
 
-    .NavLink:nth-child(5)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(5)[aria-selected="true"] ~ .Pill{
         transform: translate(0px, 240px);
     }
 
-    .NavLink:nth-child(6)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(6)[aria-selected="true"] ~ .Pill{
         transform: translate(0px, 300px);
     }
 
-    .NavLink:nth-child(7)[aria-selected="true"] ~ .pill{
+    .NavLink:nth-child(7)[aria-selected="true"] ~ .Pill{
         transform: translate(0px, 360px);
     }
 }

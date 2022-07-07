@@ -7,7 +7,7 @@ import "../Global.css"
 
 export default function Contact() {
   return (
-    <div id="ContactUs">
+    <div className="ContactUs">
         <div className="heading-container" >
             <h1>Contact Us</h1>
             <div className="heading-border"></div>
