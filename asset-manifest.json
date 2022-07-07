@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/college_website/static/css/main.743df9b8.css",
-    "main.js": "/college_website/static/js/main.97d575ad.js",
+    "main.css": "/college_website/static/css/main.cad1a551.css",
+    "main.js": "/college_website/static/js/main.8f917b5f.js",
     "static/media/Swiper_0.jpg": "/college_website/static/media/Swiper_0.1b679b9a0127f92b4328.jpg",
     "static/media/Swiper_1.jpg": "/college_website/static/media/Swiper_1.dedb2a71f4bba94cc21d.jpg",
     "static/media/card_2.jpg": "/college_website/static/media/card_2.137b9db903be1e01dba1.jpg",
@@ -77,11 +77,11 @@
     "static/media/contributors.png": "/college_website/static/media/contributors.6917fcd0f0c023ec3ed1.png",
     "static/media/placement.png": "/college_website/static/media/placement.7b8249d3d5380f20a3cc.png",
     "index.html": "/college_website/index.html",
-    "main.743df9b8.css.map": "/college_website/static/css/main.743df9b8.css.map",
-    "main.97d575ad.js.map": "/college_website/static/js/main.97d575ad.js.map"
+    "main.cad1a551.css.map": "/college_website/static/css/main.cad1a551.css.map",
+    "main.8f917b5f.js.map": "/college_website/static/js/main.8f917b5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.743df9b8.css",
-    "static/js/main.97d575ad.js"
+    "static/css/main.cad1a551.css",
+    "static/js/main.8f917b5f.js"
   ]
 }
